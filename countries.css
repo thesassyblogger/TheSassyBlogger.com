@@ -1,0 +1,269 @@
+.top1 {
+    display: flex;
+    background-color: rgb(64, 177, 214);
+    margin: auto auto;
+    border-radius: 5vw;
+    /* border: 4px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.left {
+    margin: auto auto;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 2vw;
+    text-decoration: none;
+    color: black;
+}
+
+.right img {
+    height: 30vw;
+    width: 40vw;
+    margin: 2vw;
+    padding: 2vw;
+    border-radius: 10vw;
+}
+
+h1 {
+    font-size: 3vw;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-left: 34vw;
+    opacity: 0;
+    /* text-shadow: 20px 0px 10px rgb(94, 94, 94); */
+    /* text-shadow: -2px -2px 0px #888, 4px 4px 0px #888, 7px 7px 0px #888; */
+}
+
+.header h1 {
+    opacity: 1;
+}
+
+.js-heading {
+    opacity: 1;
+    animation: fadeIn 0.7s linear;
+}
+
+.navigation {
+    left: 4.5vw;
+}
+
+.image img {
+    height: 100vh;
+    width: 90vw;
+    margin-left: 4.5vw;
+    margin-top: 17vh;
+    border-radius: 1vw;
+}
+
+.cat h1 {
+    font-family: 'New Rocker', cursive;
+    /* font-family: 'Shadows Into Light', cursive; */
+}
+
+.cat p {
+    font-size: 2rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: auto
+}
+
+a {
+    text-decoration: none;
+}
+
+.line {
+    margin-top: 2vw;
+    /* max-width: 2vw; */
+}
+
+a:hover {
+    background-color: rgb(64, 177, 214);
+}
+
+.forminput {
+    background-color: rgb(64, 177, 214);
+}
+
+.btn {
+    background-color: rgb(64, 177, 214);
+}
+
+.footer {
+    color: rgb(64, 177, 214);
+    margin-left: 4.5vw;
+}
+
+.footer a {
+    color: rgb(64, 177, 214);
+}
+
+.footer a:hover {
+    background-color: rgb(64, 177, 214);
+}
+
+.contact {
+    color: rgb(64, 177, 214);
+}
+
+.header {
+    margin-left: -30vw;
+    /* color: whitesmoke; */
+}
+
+.extra {
+    margin-left: 4.5vw;
+    color: rgb(64, 177, 214);
+}
+
+.extra a {
+    color: rgb(64, 177, 214);
+}
+
+.extra a:hover {
+    background-color: rgb(64, 177, 214);
+    color: rgb(60, 141, 168);
+}
+
+.bom {
+    margin-left: 4.5vw;
+    color: rgb(64, 177, 214);
+    background-color: black;
+    height: 13vw;
+}
+
+.bom a {
+    color: rgb(64, 177, 214);
+    background-color: black;
+}
+
+.bom a:hover {
+    color: rgb(60, 141, 168);
+    background-color: black;
+}
+
+.navleft a:hover {
+    background-color: rgb(64, 177, 214);
+}
+
+.camel {
+    opacity: 0;
+}
+
+.js-camel {
+    opacity: 1;
+    animation: fadeInLeft 0.7s linear;
+}
+
+.cow {
+    opacity: 0;
+}
+
+.js-cow {
+    opacity: 1;
+    animation: fadeInUp 0.7s linear;
+}
+
+.camel1 {
+    opacity: 0;
+}
+
+.js-camel1 {
+    opacity: 1;
+    animation: fadeInRight 0.7s linear;
+}
+
+.cow1 {
+    opacity: 0;
+}
+
+.js-cow1 {
+    opacity: 1;
+    animation: fadeInUp 0.7s linear;
+}
+
+.camel2 {
+    opacity: 0;
+}
+
+.js-camel2 {
+    opacity: 1;
+    animation: fadeInLeft 0.7s linear;
+}
+
+.cow2 {
+    opacity: 0;
+}
+
+.js-cow2 {
+    opacity: 1;
+    animation: fadeInUp 0.7s linear;
+}
+
+.camel3 {
+    opacity: 0;
+}
+
+.js-camel3 {
+    opacity: 1;
+    animation: fadeInRight 0.7s linear;
+}
+
+.cow3 {
+    opacity: 0;
+}
+
+.js-cow3 {
+    opacity: 1;
+    animation: fadeInUp 0.7s linear;
+}
+
+.camel4 {
+    opacity: 0;
+}
+
+.js-camel4 {
+    opacity: 1;
+    animation: fadeInLeft 0.7s linear;
+}
+
+.cow4 {
+    opacity: 0;
+}
+
+.js-cow4 {
+    opacity: 1;
+    animation: fadeInUp 0.7s linear;
+}
+
+.camel5 {
+    opacity: 0;
+}
+
+.js-camel5 {
+    opacity: 1;
+    animation: fadeInRight 0.7s linear;
+}
+
+.cow5 {
+    opacity: 0;
+}
+
+.js-cow5 {
+    opacity: 1;
+    animation: fadeInUp 0.7s linear;
+}
+
+.camel6 {
+    opacity: 0;
+}
+
+.js-camel6 {
+    opacity: 1;
+    animation: fadeInLeft 0.7s linear;
+}
+
+.cow6 {
+    opacity: 0;
+}
+
+.js-cow6 {
+    opacity: 1;
+    animation: fadeInUp 0.7s linear;
+}
