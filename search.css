@@ -1,0 +1,175 @@
+.col {
+    padding: 2vw;
+    margin: 3vw;
+    background-color: cornflowerblue;
+    border-radius: 1vw;
+    margin-left: 3vw;
+}
+
+.footer {
+    margin-left: 4.5vw;
+}
+
+.col h3 {
+    padding: 1vw;
+    margin-bottom: 2vw;
+    font-size: 3vw;
+    background-color: rgb(81, 110, 165);
+    font-family: 'New Rocker', cursive;
+    color: black;
+    /* opacity: 0; */
+}
+
+.formg input {
+    padding: 1vw;
+    margin: 2vw;
+    font-size: 2vw;
+    width: 40%;
+    margin-left: 45vw;
+    border-radius: 0.3vw;
+}
+
+.formg input::placeholder {
+    font-size: 1.7vw;
+    color: black;
+    /* background-color: rgb(104, 144, 219); */
+}
+
+.top1 {
+    display: flex;
+    background-color: rgb(82, 105, 146);
+    margin: 3vw auto;
+    border-radius: 5vw;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    /* border: 0.3vw solid black; */
+}
+
+.left {
+    margin: auto auto;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 2vw;
+    text-decoration: none;
+    color: black;
+}
+
+.right img {
+    height: 20vw;
+    width: 30vw;
+    margin: 2vw;
+    padding: 2vw;
+    border-radius: 10vw;
+}
+
+.listg li {
+    list-style: none;
+}
+
+.contact {
+    color: rgb(104, 144, 219);
+}
+
+.header {
+    margin-left: 20vw;
+}
+
+.listg li a {
+    text-decoration: none;
+}
+
+
+/* .listg li a:hover {
+    box-shadow: 1vw 1vw whitesmoke;
+} */
+
+.commentf {
+    background-color: rgb(104, 144, 219);
+}
+
+.sub:hover {
+    color: rgb(104, 144, 219);
+}
+
+.reset:hover {
+    color: rgb(104, 144, 219);
+}
+
+.footer a {
+    color: rgb(104, 144, 219);
+}
+
+.footer a:hover {
+    background-color: rgb(104, 144, 219);
+    color: black;
+}
+
+.footer {
+    color: rgb(104, 144, 219);
+}
+
+a:hover {
+    background-color: rgb(104, 144, 219);
+}
+
+.btn:hover {
+    background-color: white;
+}
+
+.forminput {
+    background-color: rgb(104, 144, 219);
+}
+
+.btn {
+    background-color: rgb(104, 144, 219);
+}
+
+.extra {
+    margin-left: 4.5vw;
+    color: rgb(104, 144, 219);
+}
+
+.extra a {
+    color: rgb(104, 144, 219);
+}
+
+.extra a:hover {
+    background-color: rgb(104, 144, 219);
+    color: rgb(68, 91, 134);
+}
+
+.bom {
+    margin-left: 4.5vw;
+    color: rgb(104, 144, 219);
+}
+
+.bom a {
+    color: rgb(104, 144, 219);
+}
+
+.bom a:hover {
+    color: rgb(68, 91, 134);
+}
+
+.navleft a:hover {
+    background-color: rgb(104, 144, 219);
+}
+
+.result h1 {
+    font-size: 3vw;
+    padding: 2vw;
+    background-color: rgb(104, 144, 219);
+    width: 50%;
+    margin-left: 23vw;
+    border-radius: 0.3vw;
+    box-shadow: 1vw 1vw black;
+}
+
+.result {
+    text-align: center;
+    margin: 2vw;
+}
+
+@media screen and (max-width: 600px) {
+    .header h1 {
+        margin-left: -13vw;
+    }
+}
