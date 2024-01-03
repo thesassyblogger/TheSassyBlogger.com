@@ -1,0 +1,91 @@
+h1{
+    font-size: 3vw;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-left: 24vw;
+}
+.footer a{
+    color:rgb(130, 222, 235) ;
+}
+.footer a:hover{
+    background-color: rgb(130, 222, 235);
+    color: black;
+}
+.footer{
+    color:  rgb(130, 222, 235);
+}
+.top{
+    background-color: rgb(130, 222, 235);
+}
+a:hover{
+    background-color: rgb(130, 222, 235);
+}
+.btn:hover{
+    background-color: white;
+}
+.forminput{
+    background-color: rgb(130, 222, 235);
+}
+.btn{
+    background-color: rgb(130, 222, 235);
+}
+h2{
+    margin-left: 3vw;
+}
+span{
+    margin-left: 3vw;
+    font-size: 1.2vw;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.contact{
+    color:black;
+    color:rgb(130, 222, 235) ;
+}
+.header{
+    margin-left: -20vw;
+}
+.top{
+    display: flex;
+    margin: auto auto;
+    border-radius: 5vw;
+    border:  4px solid black;
+}
+.navigation{
+    left: 4.5vw;
+}
+.image img{
+    height: 100vh;
+    width: 90vw;
+    margin-left: 4.5vw;
+    margin-top: 17vh;
+    border-radius: 1vw;
+}
+.cat h1{
+    font-family: 'New Rocker', cursive;
+    /* font-family: 'Shadows Into Light', cursive; */
+}
+.left{
+    margin: auto auto;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+}
+.right img{
+    height: 30vw;
+    width: 40vw;
+    margin: 2vw;
+    padding: 2vw;
+    border-radius: 10vw;
+}
+.cat p{
+    font-size: 2rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: auto
+}
+a{
+    text-decoration:none;
+}
+.line{
+    margin-top: 2vw;
+    /* max-width: 2vw; */
+}
