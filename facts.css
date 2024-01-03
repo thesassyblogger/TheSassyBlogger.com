@@ -1,0 +1,360 @@
+    .article {
+        position: relative;
+        width: 79%;
+        margin-top: 2vw;
+    }
+    
+    .article span {
+        font-size: 2.5vw;
+        padding: 1vw;
+        margin-left: 9vw;
+    }
+    
+    .facts {
+        margin: auto;
+        margin-top: 17vw;
+    }
+    
+    .navigation {
+        left: 4.5vw;
+    }
+    
+    .image img {
+        height: auto;
+        width: 90vw;
+        margin-left: 4.5vw;
+        margin-top: 15vh;
+        border-radius: 1vw;
+    }
+    
+    .navleft ul li a:hover {
+        background-color: rgb(91, 133, 248);
+        color: black;
+    }
+    
+    .navleft ul li a {
+        color: white;
+    }
+    
+    .navleft span {
+        color: white;
+    }
+    
+    .image1 {
+        display: block;
+        height: 35vw;
+        width: 60vw;
+        margin-top: 2vh;
+        margin-left: 10vw;
+        border-radius: 1vw;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+    
+    h2 {
+        font-size: 3.5vw;
+        position: relative;
+        font-family: 'Noto Serif', serif;
+        margin-left: 12vw;
+        margin-top: -10vw;
+        opacity: 0;
+        transition: all 300ms ease-in;
+    }
+    
+    .js-h2 {
+        opacity: 1;
+        animation: jackInTheBox 0.7s linear;
+    }
+    
+    .overlay {
+        position: absolute;
+        bottom: 0;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5);
+        color: #f1f1f1;
+        width: 100%;
+        height: 100%;
+        transition: .3s ease;
+        opacity: 0;
+        color: white;
+        font-size: 2.5vw;
+        padding: 2vw;
+        text-align: center;
+        margin-left: 10vw;
+        width: 56vw;
+        height: 31vw;
+        border-radius: 1vw;
+        justify-content: center;
+    }
+    
+    .article:hover .overlay {
+        opacity: 0.9;
+    }
+    
+    .article h4 {
+        font-size: 2.5vw;
+        margin-left: 10vw;
+    }
+    
+    .forminput {
+        background-color: rgb(91, 133, 248);
+        color: black;
+    }
+    
+    .btn {
+        background-color: rgb(91, 133, 248);
+    }
+    
+    .btn:hover {
+        background-color: black;
+        border: 3px solid rgb(91, 133, 248);
+        color: rgb(91, 133, 248);
+    }
+    
+    body {
+        font-family: 'Noto Sans KR', sans-serif;
+    }
+    
+    .footer {
+        color: rgb(91, 133, 248);
+    }
+    
+    .footer a {
+        color: rgb(91, 133, 248);
+    }
+    
+    .footer a:hover {
+        background-color: rgb(91, 133, 248);
+    }
+    
+    .contact {
+        color: rgb(91, 133, 248);
+        opacity: 0;
+        transition: all 300ms ease-in;
+    }
+    
+    .js-foll {
+        opacity: 1;
+        animation: flipInX 1s linear;
+    }
+    
+    .hrr {
+        color: black;
+        margin-top: 1vw;
+        margin-left: 10vw;
+        width: 60vw;
+        border-bottom: dashed 1vw black;
+    }
+    
+    br {
+        margin-left: 9vw;
+    }
+    
+    .counter-plus:focus {
+        background-color: rgb(91, 133, 248);
+    }
+    
+    .mauto hr {
+        margin-left: 0vw;
+        margin-top: 1.9vw;
+        margin-bottom: 1.9vw;
+        border-bottom: solid 0.4vw black;
+    }
+    
+    .commentf {
+        background-color: rgb(91, 133, 248);
+    }
+    
+    .sub:hover {
+        color: rgb(91, 133, 248);
+        border: 0.1 solid rgb(91, 133, 248);
+    }
+    
+    .reset:hover {
+        color: rgb(91, 133, 248);
+        border: 0.1 solid rgb(91, 133, 248);
+    }
+    
+    .extra {
+        margin-left: 4.5vw;
+        color: rgb(91, 133, 248);
+    }
+    
+    .extra a {
+        color: rgb(91, 133, 248);
+    }
+    
+    .extra a:hover {
+        background-color: rgb(91, 133, 248);
+        color: rgb(75, 169, 200);
+    }
+    
+    .bom {
+        margin-left: 4.5vw;
+        color: rgb(91, 133, 248);
+    }
+    
+    .bom a {
+        color: rgb(91, 133, 248);
+    }
+    
+    .footer {
+        margin-left: 4.5vw;
+    }
+    
+    .bom a:hover {
+        color: rgb(75, 169, 200);
+    }
+    
+    .art {
+        position: relative;
+        opacity: 0;
+        transition: all 300ms ease-in;
+    }
+    
+    .js-art {
+        opacity: 1;
+        animation: slideInLeft 0.5s linear;
+    }
+    
+    .art1 {
+        position: relative;
+        opacity: 0;
+        transition: all 300ms ease-in;
+    }
+    
+    .js-art1 {
+        opacity: 1;
+        animation: slideInRight 0.5s linear;
+    }
+    
+    .art2 {
+        position: relative;
+        opacity: 0;
+        transition: all 300ms ease-in;
+    }
+    
+    .js-art2 {
+        opacity: 1;
+        animation: slideInLeft 0.5s linear;
+    }
+    
+    .art3 {
+        position: relative;
+        opacity: 0;
+        transition: all 300ms ease-in;
+    }
+    
+    .js-art3 {
+        opacity: 1;
+        animation: slideInRight 0.5s linear;
+    }
+    
+    .art4 {
+        position: relative;
+        opacity: 0;
+        transition: all 300ms ease-in;
+    }
+    
+    .js-art4 {
+        opacity: 1;
+        animation: slideInLeft 0.5s linear;
+    }
+    
+    .art5 {
+        position: relative;
+        opacity: 0;
+        transition: all 300ms ease-in;
+    }
+    
+    .js-art5 {
+        opacity: 1;
+        animation: slideInRight 0.5s linear;
+    }
+    
+    .art6 {
+        position: relative;
+        opacity: 0;
+        transition: all 300ms ease-in;
+    }
+    
+    .js-art6 {
+        opacity: 1;
+        animation: slideInLeft 0.5s linear;
+    }
+    
+    .art7 {
+        position: relative;
+        opacity: 0;
+        transition: all 300ms ease-in;
+    }
+    
+    .js-art7 {
+        opacity: 1;
+        animation: slideInRight 0.5s linear;
+    }
+    
+    .art8 {
+        position: relative;
+        opacity: 0;
+        transition: all 300ms ease-in;
+    }
+    
+    .js-art8 {
+        opacity: 1;
+        animation: slideInLeft 0.5s linear;
+    }
+    
+    .art9 {
+        position: relative;
+        opacity: 0;
+        transition: all 300ms ease-in;
+    }
+    
+    .js-art9 {
+        opacity: 1;
+        animation: slideInRight 0.5s linear;
+    }
+    
+    .art10 {
+        position: relative;
+        opacity: 0;
+        transition: all 300ms ease-in;
+    }
+    
+    .js-art10 {
+        opacity: 1;
+        animation: slideInLeft 0.5s linear;
+    }
+    
+    .art11 {
+        position: relative;
+        opacity: 0;
+        transition: all 300ms ease-in;
+    }
+    
+    .js-art11 {
+        opacity: 1;
+        animation: slideInRight 0.5s linear;
+    }
+    
+    .art12 {
+        position: relative;
+        opacity: 0;
+        transition: all 300ms ease-in;
+    }
+    
+    .js-art12 {
+        opacity: 1;
+        animation: slideInLeft 0.5s linear;
+    }
+    
+    .art13 {
+        position: relative;
+        opacity: 0;
+        transition: all 300ms ease-in;
+    }
+    
+    .js-art13 {
+        opacity: 1;
+        animation: slideInRight 0.5s linear;
+    }
