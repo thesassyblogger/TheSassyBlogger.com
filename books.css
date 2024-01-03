@@ -1,0 +1,123 @@
+/* h1 {
+    font-size: 3vw;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-left: 24vw;
+} */
+
+.navigation {
+    left: 4.5vw;
+}
+
+.footer {
+    margin-left: 4.5vw;
+}
+
+.image img {
+    height: 100vh;
+    width: 90vw;
+    margin-left: 4.5vw;
+    margin-top: 17vh;
+    border-radius: 1vw;
+}
+
+.cat h1 {
+    font-family: 'New Rocker', cursive;
+    /* font-family: 'Shadows Into Light', cursive; */
+}
+
+.footer a {
+    color: rgb(241, 175, 113);
+}
+
+.footer a:hover {
+    background-color: rgb(241, 175, 113);
+    color: black;
+}
+
+.footer {
+    color: rgb(241, 175, 113);
+}
+
+.top1 {
+    background-color: rgb(241, 175, 113);
+    /* border: 4px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+a:hover {
+    background-color: rgb(241, 175, 113);
+}
+
+.btn:hover {
+    background-color: white;
+}
+
+.forminput {
+    background-color: rgb(241, 175, 113);
+}
+
+.btn {
+    background-color: rgb(241, 175, 113);
+}
+
+h2 {
+    margin-left: 3vw;
+}
+
+span {
+    margin-left: 3vw;
+    font-size: 1.2vw;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.contact {
+    color: rgb(241, 175, 113);
+}
+
+.header {
+    margin-left: -20vw;
+}
+
+.extra {
+    margin-left: 4.5vw;
+    color: rgb(241, 175, 113);
+}
+
+.extra a {
+    color: rgb(241, 175, 113);
+}
+
+.extra a:hover {
+    background-color: rgb(241, 175, 113);
+    color: rgb(187, 100, 18);
+}
+
+.bom {
+    margin-left: 4.5vw;
+    color: rgb(241, 175, 113);
+}
+
+.bom a {
+    color: rgb(241, 175, 113);
+}
+
+.bom a:hover {
+    color: rgb(187, 100, 18);
+}
+
+.navleft a:hover {
+    background-color: rgb(241, 175, 113);
+}
+
+@media screen and (max-width: 600px) {
+    .header h1 {
+        margin-left: 28vw;
+    }
+}
+
+
+/* @media screen and (max-width: 1600px) {
+    .image img {
+        margin-left: 5vw;
+    }
+} */
