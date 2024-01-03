@@ -1,0 +1,98 @@
+h1 {
+    font-size: 3vw;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-left: 18vw;
+}
+
+.footer a {
+    color: greenyellow;
+}
+
+.footer a:hover {
+    background-color: greenyellow;
+    color: black;
+}
+
+.footer {
+    color: greenyellow;
+}
+
+@media screen and (max-width: 600px) {
+    .header h1 {
+        margin-left: 28vw;
+    }
+}
+
+.top1 {
+    background-color: greenyellow;
+}
+
+a:hover {
+    background-color: greenyellow;
+}
+
+.btn:hover {
+    background-color: white;
+}
+
+.forminput {
+    background-color: greenyellow;
+}
+
+.btn {
+    background-color: greenyellow;
+}
+
+h2 {
+    margin-left: 3vw;
+}
+
+span {
+    margin-left: 3vw;
+    font-size: 1.2vw;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.contact {
+    color: black;
+    color: greenyellow;
+}
+
+.header {
+    margin-left: -20vw;
+}
+
+.h {
+    margin-left: 23vw;
+}
+
+.extra {
+    margin-left: 4.5vw;
+    color: greenyellow;
+}
+
+.extra a {
+    color: greenyellow;
+}
+
+.extra a:hover {
+    background-color: greenyellow;
+    color: rgb(108, 164, 25);
+}
+
+.bom {
+    margin-left: 4.5vw;
+    color: greenyellow;
+}
+
+.bom a {
+    color: greenyellow;
+}
+
+.bom a:hover {
+    color: rgb(108, 164, 25);
+}
+
+.navleft a:hover {
+    background-color: greenyellow;
+}
