@@ -1,0 +1,251 @@
+/* .navigation::after {
+    content: " ";
+    background-image: url(/image/mansi4.jpeg);
+    height: 59vw;
+} */
+
+.image img {
+    margin-top: 16vh;
+}
+
+.hhh hr {
+    width: 70vw;
+    border: 0.5vw dashed black;
+    margin-left: 13vw;
+}
+
+.navigation {
+    height: 15vh;
+}
+
+.about {
+    display: flex;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    font-family: 'Dancing Script', cursive;
+    border-radius: 2vw;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: rgb(151, 218, 240);
+}
+
+.aboutcontent {
+    font-size: 3vw;
+    margin: auto auto;
+    padding: 2vw;
+}
+
+.aboutimage img {
+    height: 32vw;
+    width: 30vw;
+    margin: 2vw;
+    border-radius: 2vw;
+}
+
+.line {
+    margin: 2vw;
+    margin-top: 4vw;
+    width: 40vw;
+    height: 0.4vw;
+    position: absolute;
+    /* top: 50%; */
+    left: 20%;
+    transform: translate(-50%, -50%);
+    border: none;
+    /* margin-bottom: 4vw; */
+}
+
+.line::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    height: 100%;
+    animation: animate 5s linear;
+    /*animation: name duration timing-function delay iteration-count direction fill-mode;*/
+}
+
+@keyframes animate {
+    0% {
+        left: 0;
+    }
+    25% {
+        left: 50%;
+    }
+    50% {
+        left: 100%;
+    }
+    75% {
+        left: 50%;
+    }
+    100% {
+        left: 35%;
+    }
+}
+
+.line1 {
+    margin: 2vw;
+    margin-top: 4vw;
+    width: 40vw;
+    height: 0.4vw;
+    position: absolute;
+    /* top: 50%; */
+    right: -10%;
+    transform: translate(-50%, -50%);
+    border: none;
+    /* margin-bottom: 4vw; */
+}
+
+.line1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-color: black;
+    height: 100%;
+    animation: animate1 5s linear;
+    /*animation: name duration timing-function delay iteration-count direction fill-mode;*/
+}
+
+@keyframes animate1 {
+    0% {
+        right: 0;
+    }
+    25% {
+        right: 50%;
+    }
+    50% {
+        right: 100%;
+    }
+    75% {
+        right: 50%;
+    }
+    100% {
+        right: 35%;
+    }
+}
+
+.contact {
+    display: flex;
+    margin-top: 20px;
+    color: rgb(151, 218, 240);
+    border-radius: 1vw;
+}
+
+.header {
+    margin: auto auto;
+    font-size: 1.2vw;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.media {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    margin-right: 2vw;
+}
+
+.commentf {
+    background-color: rgb(151, 218, 240);
+}
+
+.sub:hover {
+    color: rgb(151, 218, 240);
+    border: 0.1 solid rgb(39, 114, 199);
+}
+
+.reset:hover {
+    color: rgb(151, 218, 240);
+    border: 0.1 solid rgb(39, 114, 199);
+}
+
+.camel {
+    opacity: 0;
+}
+
+.js-camel {
+    opacity: 1;
+    animation: fadeInLeft 0.7s linear;
+}
+
+.cow {
+    opacity: 0;
+}
+
+.js-cow {
+    opacity: 1;
+    animation: fadeInUp 0.7s linear;
+}
+
+.camel1 {
+    opacity: 0;
+}
+
+.js-camel1 {
+    opacity: 1;
+    animation: fadeInRight 0.7s linear;
+}
+
+.cow1 {
+    opacity: 0;
+}
+
+.js-cow1 {
+    opacity: 1;
+    animation: fadeInUp 0.7s linear;
+}
+
+.camel2 {
+    opacity: 0;
+}
+
+.js-camel2 {
+    opacity: 1;
+    animation: fadeInLeft 0.7s linear;
+}
+
+.cow2 {
+    opacity: 0;
+}
+
+.js-cow2 {
+    opacity: 1;
+    animation: fadeInUp 0.7s linear;
+}
+
+.camel3 {
+    opacity: 0;
+}
+
+.js-camel3 {
+    opacity: 1;
+    animation: fadeInRight 0.7s linear;
+}
+
+.cow3 {
+    opacity: 0;
+}
+
+.js-cow3 {
+    opacity: 1;
+    animation: fadeInUp 0.7s linear;
+}
+
+.camel4 {
+    opacity: 0;
+}
+
+.js-camel4 {
+    opacity: 1;
+    animation: fadeInLeft 0.7s linear;
+}
+
+.cow4 {
+    opacity: 0;
+}
+
+.js-cow4 {
+    opacity: 1;
+    animation: fadeInUp 0.7s linear;
+}
