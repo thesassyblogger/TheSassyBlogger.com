@@ -1,0 +1,94 @@
+h1 {
+    font-size: 3vw;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-left: 27vw;
+}
+
+.footer a {
+    color: rgb(255, 183, 49);
+}
+
+.footer a:hover {
+    background-color: rgb(255, 183, 49);
+    color: black;
+}
+
+.footer {
+    color: rgb(255, 183, 49);
+}
+
+@media screen and (max-width: 600px) {
+    .header h1 {
+        margin-left: 28vw;
+    }
+}
+
+.top1 {
+    background-color: rgb(255, 183, 49);
+}
+
+a:hover {
+    background-color: rgb(255, 183, 49);
+}
+
+.btn:hover {
+    background-color: white;
+}
+
+.forminput {
+    background-color: rgb(255, 183, 49);
+}
+
+.btn {
+    background-color: rgb(255, 183, 49);
+}
+
+h2 {
+    margin-left: 3vw;
+}
+
+span {
+    margin-left: 3vw;
+    font-size: 1.2vw;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.contact {
+    color: black;
+    color: rgb(255, 183, 49);
+}
+
+.header {
+    margin-left: -20vw;
+}
+
+.extra {
+    margin-left: 4.5vw;
+    color: rgb(255, 183, 49);
+}
+
+.extra a {
+    color: rgb(255, 183, 49);
+}
+
+.extra a:hover {
+    background-color: rgb(255, 183, 49);
+    color: rgb(140, 94, 10);
+}
+
+.bom {
+    margin-left: 4.5vw;
+    color: rgb(255, 183, 49);
+}
+
+.bom a {
+    color: rgb(255, 183, 49);
+}
+
+.bom a:hover {
+    color: rgb(140, 94, 10);
+}
+
+.navleft a:hover {
+    background-color: rgb(255, 183, 49);
+}
