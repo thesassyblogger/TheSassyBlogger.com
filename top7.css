@@ -1,0 +1,250 @@
+.top1 {
+    display: flex;
+    background-color: rgb(151, 218, 240);
+    margin: auto auto;
+    border-radius: 5vw;
+    /* border: 4px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.left {
+    margin: auto auto;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 2vw;
+    text-decoration: none;
+    color: black;
+}
+
+.footer {
+    margin-left: 4.5vw;
+}
+
+.right img {
+    height: 30vw;
+    width: 40vw;
+    margin: 2vw;
+    padding: 2vw;
+    border-radius: 10vw;
+}
+
+h1 {
+    font-size: 3vw;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-left: 29vw;
+    opacity: 0;
+}
+
+.extra {
+    margin-left: 4.5vw;
+}
+
+.bom {
+    margin-left: 4.5vw;
+}
+
+.shark {
+    opacity: 0;
+}
+
+.js-heading {
+    opacity: 1;
+    animation: fadeIn 0.7s linear;
+}
+
+.navigation {
+    left: 4.5vw;
+}
+
+.image img {
+    height: 100vh;
+    width: 90vw;
+    margin-left: 4.5vw;
+    margin-top: 17vh;
+    border-radius: 1vw;
+}
+
+.cat h1 {
+    font-family: 'New Rocker', cursive;
+    /* font-family: 'Shadows Into Light', cursive; */
+}
+
+.cat p {
+    font-size: 1.7vw;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: auto;
+    margin-left: 7vw;
+    word-break: keep-all;
+    overflow-wrap: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+.line {
+    margin-top: 2vw;
+    /* max-width: 2vw; */
+}
+
+.header {
+    margin-left: -20vw;
+}
+
+.camel {
+    opacity: 0;
+}
+
+.js-camel {
+    opacity: 1;
+    animation: fadeInLeft 0.7s linear;
+}
+
+.cow {
+    opacity: 0;
+}
+
+.js-cow {
+    opacity: 1;
+    animation: fadeInUp 0.7s linear;
+}
+
+.camel1 {
+    opacity: 0;
+}
+
+.js-camel1 {
+    opacity: 1;
+    animation: fadeInRight 0.7s linear;
+}
+
+.cow1 {
+    opacity: 0;
+}
+
+.js-cow1 {
+    opacity: 1;
+    animation: fadeInUp 0.7s linear;
+}
+
+.camel2 {
+    opacity: 0;
+}
+
+.js-camel2 {
+    opacity: 1;
+    animation: fadeInLeft 0.7s linear;
+}
+
+.cow2 {
+    opacity: 0;
+}
+
+.js-cow2 {
+    opacity: 1;
+    animation: fadeInUp 0.7s linear;
+}
+
+.camel3 {
+    opacity: 0;
+}
+
+.js-camel3 {
+    opacity: 1;
+    animation: fadeInRight 0.7s linear;
+}
+
+.cow3 {
+    opacity: 0;
+}
+
+.js-cow3 {
+    opacity: 1;
+    animation: fadeInUp 0.7s linear;
+}
+
+.camel4 {
+    opacity: 0;
+}
+
+.js-camel4 {
+    opacity: 1;
+    animation: fadeInLeft 0.7s linear;
+}
+
+.cow4 {
+    opacity: 0;
+}
+
+.js-cow4 {
+    opacity: 1;
+    animation: fadeInUp 0.7s linear;
+}
+
+.camel5 {
+    opacity: 0;
+}
+
+.js-camel5 {
+    opacity: 1;
+    animation: fadeInRight 0.7s linear;
+}
+
+.cow5 {
+    opacity: 0;
+}
+
+.js-cow5 {
+    opacity: 1;
+    animation: fadeInUp 0.7s linear;
+}
+
+.camel6 {
+    opacity: 0;
+}
+
+.js-camel6 {
+    opacity: 1;
+    animation: fadeInLeft 0.7s linear;
+}
+
+.cow6 {
+    opacity: 0;
+}
+
+.js-cow6 {
+    opacity: 1;
+    animation: fadeInUp 0.7s linear;
+}
+
+.camel7 {
+    opacity: 0;
+}
+
+.js-camel7 {
+    opacity: 1;
+    animation: fadeInRight 0.7s linear;
+}
+
+.cow7 {
+    opacity: 0;
+}
+
+.js-cow7 {
+    opacity: 1;
+    animation: fadeInUp 0.7s linear;
+}
+
+@media screen and (max-width: 800px) {
+    .cat h1 {
+        margin-left: -20vw;
+    }
+    .cat p {
+        font-size: 3vw;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .image img {
+        margin-left: 4.5vw;
+    }
+}
