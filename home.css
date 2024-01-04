@@ -89,7 +89,7 @@
 
 .navigation::after {
     content: " ";
-    background-image: url(/black.jpg);
+    background-image: url(black.jpg);
     opacity: 0.9;
     z-index: -1;
     background-repeat: no-repeat;
@@ -298,7 +298,7 @@ button {
 
 .container::after {
     content: " ";
-    background-image: url('/bblue.jpeg');
+    background-image: url('bblue.jpeg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -339,7 +339,7 @@ button {
 
 .container4::after {
     content: " ";
-    background-image: url('/blog.jpg');
+    background-image: url('blog.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -381,7 +381,7 @@ button {
 
 .container2::after {
     content: " ";
-    background-image: url('/blue1.jpeg');
+    background-image: url('blue1.jpeg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -409,7 +409,7 @@ button {
 
 .container1::after {
     content: " ";
-    background-image: url('/blue10.jpeg');
+    background-image: url('blue10.jpeg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
