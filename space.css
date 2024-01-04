@@ -1,0 +1,111 @@
+h1 {
+    font-size: 3vw;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-left: 24vw;
+}
+
+.navigation {
+    left: 4.5vw;
+}
+
+.image img {
+    height: 100vh;
+    width: 90vw;
+    margin-left: 4.5vw;
+    margin-top: 17vh;
+    border-radius: 1vw;
+}
+
+@media screen and (max-width: 600px) {
+    .header h1 {
+        margin-left: 28vw;
+    }
+}
+
+.cat h1 {
+    font-family: 'New Rocker', cursive;
+    /* font-family: 'Shadows Into Light', cursive; */
+}
+
+.footer a {
+    color: rgb(137, 88, 253);
+}
+
+.footer a:hover {
+    background-color: rgb(137, 88, 253);
+    color: black;
+}
+
+.footer {
+    color: rgb(137, 88, 253);
+}
+
+.top1 {
+    background-color: rgb(137, 88, 253);
+    /* border: 4px solid black; */
+}
+
+a:hover {
+    background-color: rgb(137, 88, 253);
+}
+
+.btn:hover {
+    background-color: white;
+}
+
+.forminput {
+    background-color: rgb(137, 88, 253);
+}
+
+.btn {
+    background-color: rgb(137, 88, 253);
+}
+
+h2 {
+    margin-left: 3vw;
+}
+
+span {
+    margin-left: 3vw;
+    font-size: 1.2vw;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.contact {
+    color: rgb(137, 88, 253);
+}
+
+.header {
+    margin-left: -20vw;
+}
+
+.extra {
+    margin-left: 4.5vw;
+    color: rgb(137, 88, 253);
+}
+
+.extra a {
+    color: rgb(137, 88, 253);
+}
+
+.extra a:hover {
+    background-color: rgb(137, 88, 253);
+    color: rgb(71, 36, 152);
+}
+
+.bom {
+    margin-left: 4.5vw;
+    color: rgb(137, 88, 253);
+}
+
+.bom a {
+    color: rgb(137, 88, 253);
+}
+
+.bom a:hover {
+    color: rgb(71, 36, 152);
+}
+
+.navleft a:hover {
+    background-color: rgb(137, 88, 253);
+}

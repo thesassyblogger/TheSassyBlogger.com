@@ -1,0 +1,262 @@
+h1 {
+    font-size: 3vw;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-left: 24vw;
+    color: whitesmoke;
+}
+
+.navigation {
+    left: 4.5vw;
+}
+
+.footer {
+    margin-left: 4.5vw;
+}
+
+@media screen and (max-width: 600px) {
+    .image img {
+        margin-left: -15.5vw;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .image img {
+        margin-left: -14.85vw;
+        /* height: 100vw; */
+    }
+}
+
+.image img {
+    height: 150vh;
+    width: 90vw;
+    margin-left: -14.85vw;
+    margin-top: 17vh;
+}
+
+@media screen and (max-width: 600px) {
+    .header h1 {
+        margin-left: -3vw;
+    }
+}
+
+.footer a {
+    color: whitesmoke;
+}
+
+.footer a:hover {
+    background-color: rgb(37, 52, 95);
+    color: whitesmoke;
+}
+
+.footer {
+    color: whitesmoke;
+}
+
+.top1 {
+    /* background-color: #f3ad7e; */
+    border: 4px solid black;
+}
+
+a:hover {
+    background-color: rgb(37, 52, 95);
+    color: whitesmoke;
+}
+
+.btn:hover {
+    background-color: white;
+}
+
+.forminput {
+    background-color: rgb(37, 52, 95);
+}
+
+.btn {
+    background-color: rgb(37, 52, 95);
+    color: whitesmoke;
+}
+
+.contact {
+    color: rgb(37, 52, 95);
+}
+
+h2 {
+    margin-left: 3vw;
+}
+
+.h {
+    margin-left: 18vw;
+}
+
+.movie1 {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: whitesmoke;
+}
+
+.movie1 h3 {
+    font-size: 4vw;
+    /* margin-left: 7.5vw; */
+    font-family: 'New Rocker', cursive;
+    color: black;
+}
+
+.movie1 p {
+    display: flex;
+    flex-direction: column;
+    padding: 2vw;
+    margin: 2vw;
+    background-color: rgb(37, 52, 95);
+    border-radius: 2vw;
+    /* border: 4px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+button.primaryContained {
+    background-color: rgb(37, 52, 95);
+    color: whitesmoke;
+}
+
+.col-6 button:hover {
+    color: rgb(37, 52, 95);
+}
+
+.like input:focus {
+    background-color: rgb(37, 52, 95);
+}
+
+span {
+    font-size: 2.5vw;
+}
+
+.header1 {
+    font-size: 3vw;
+    font-family: 'Shadows Into Light', cursive;
+    margin: 2vw 0;
+}
+
+img {
+    height: 30vw;
+    width: 50vw;
+    margin: 1vw;
+    border-radius: 1vw;
+}
+
+.date {
+    background: none;
+    margin-left: 40vw;
+    font-size: 2vw;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: black;
+}
+
+.commentf {
+    background-color: rgb(37, 52, 95);
+    color: whitesmoke;
+}
+
+.sub:hover {
+    color: whitesmoke;
+}
+
+.reset:hover {
+    color: whitesmoke;
+}
+
+.extra {
+    margin-left: 4.5vw;
+    color: whitesmoke;
+}
+
+.extra a {
+    color: whitesmoke;
+}
+
+.extra a:hover {
+    background-color: rgb(37, 52, 95);
+    color: rgb(37, 52, 95);
+}
+
+.bottom {
+    /* background-color: aquamarine; */
+    margin-left: -3vw;
+}
+
+.bom {
+    margin-left: 4.5vw;
+    color: whitesmoke;
+}
+
+.bom a {
+    color: whitesmoke;
+}
+
+.bom a:hover {
+    color: rgb(37, 52, 95);
+}
+
+.navleft ul li a:hover {
+    background-color: rgb(37, 52, 95);
+}
+
+.extra1 {
+    max-width: 50vw;
+    margin: auto;
+}
+
+.extra1 h4 {
+    /* font-size: 3rem; */
+    font-family: 'Shadows Into Light', cursive;
+    margin: auto;
+    padding: 1vw;
+    margin-left: 12vw;
+}
+
+.youlike a {
+    text-decoration: none;
+}
+
+.blog1 {
+    display: flex;
+    border: 3px solid #000000;
+    background-color: rgb(14, 31, 75);
+    margin: 1vw;
+    padding: 1vw;
+    border-bottom-right-radius: 2vw;
+    border-top-left-radius: 2vw;
+    color: rgb(255, 255, 255);
+}
+
+.blog1 img {
+    width: 15vw;
+    height: 10vw;
+}
+
+.blog2 {
+    display: flex;
+    border: 3px solid black;
+    background-color: rgb(37, 52, 95);
+    margin: 1vw;
+    padding: 1vw;
+    border-bottom-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+    color: rgb(255, 255, 255);
+}
+
+.blog2 img {
+    width: 15vw;
+    height: 10vw;
+}
+
+.heading {
+    margin: 1vw;
+}
+
+.heading span {
+    font-size: 1.5rem;
+    margin-left: 1vw;
+}
+
+h5 {
+    font-size: 2rem;
+    padding: 1vw;
+    font-family: 'New Tegomin', serif;
+}
